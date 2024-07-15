@@ -1,0 +1,11 @@
+name: mbsLLM
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11.2
+  - pytorch
+  - pytorch-cuda=12.1
+  - pip:
+    - transformers
